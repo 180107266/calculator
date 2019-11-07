@@ -26,3 +26,18 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   margin-top: -20px;
 }
+.container > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(173,216,230, 0.75);
+  padding: 10px 0;
+  margin: 7px 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 1px white;
+}
+
+.container > button:hover {
+  background-color: rgba(173,195,255, 0.55);
+}
